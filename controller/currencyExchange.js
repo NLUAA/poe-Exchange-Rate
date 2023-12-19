@@ -11,7 +11,6 @@ async function getLeagueNameFromGGC() {
         const data = await res.json();
 
         return data.result[0].id;
-    } catch (error) {
         console.log(error);
     }
 } 
